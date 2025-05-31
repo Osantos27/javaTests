@@ -1,0 +1,5 @@
+name: test2
+version: '1.0-SNAPSHOT'
+main: com.test2.doubleJumpListener
+api-version: '1.21'
+load: STARTUP
