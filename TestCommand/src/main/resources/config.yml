@@ -1,0 +1,12 @@
+kits:
+  tools:
+    items:
+      - "DIAMOND_PICKAXE:1"
+      - "DIAMOND_AXE:1"
+      - "DIAMOND_SHOVEL:1"
+  armor:
+    items:
+      - "DIAMOND_HELMET:1"
+      - "DIAMOND_CHESTPLATE:1"
+      - "DIAMOND_LEGGINGS:1"
+      - "DIAMOND_BOOTS:1"

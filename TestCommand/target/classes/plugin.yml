@@ -1,0 +1,33 @@
+name: TestCommand
+version: '1.0.0'
+main: me.iss.testCommand.main
+api-version: '1.20'
+load: POSTWORLD
+commands:
+  Test:
+    description: Opens the GUI of a workbench
+    usage: /workbench
+    aliases:
+      - wb
+      - workbench
+      - craft
+  Heal:
+    description: Heals the player
+    usage: /heal
+    aliases:
+      - hl
+  Kits:
+    description: Gives the player a kit
+    usage: /kits <kitName>
+    aliases:
+      - k
+      - kit
+  GiveCustomItem:
+    description: Gives the player a custom item
+    usage: /giveCustomItem
+    aliases:
+      - gci
+      - customItem
+permissions:
+  op:
+    default: true
