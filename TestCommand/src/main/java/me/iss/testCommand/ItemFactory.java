@@ -57,6 +57,15 @@ public class ItemFactory {
         return SpecialDiamond;
     }
 
+    public static ItemStack createSMT() {
+        ItemStack SMT = new ItemStack(Material.DIAMOND, 1);
+        ItemMeta SMTMeta = SMT.getItemMeta();
+        SMTMeta.setDisplayName(ChatColor.AQUA + "SMT");
+
+        SMT.setItemMeta(SMTMeta);
+        return SMT;
+    }
+
     public static ItemStack createMeltedDiamond() {
         ItemStack MeltedDiamond = new ItemStack(Material.DIAMOND, 1);
         ItemMeta MeltedDiamondMeta = MeltedDiamond.getItemMeta();
@@ -68,4 +77,5 @@ public class ItemFactory {
         MeltedDiamond.setItemMeta(MeltedDiamondMeta);
         return MeltedDiamond;
     }
+
 }
